@@ -13,6 +13,7 @@ public class Test_LoginPage {
 	@BeforeTest
 	public void beforeTest() {
 		System.out.println("BeforeTest");
+		
 	}
 	
 	@BeforeClass
@@ -28,6 +29,8 @@ public class Test_LoginPage {
 	@Test
 	public void test() {
 		System.out.println("Test");
+		
+		
 	}
 	
 	@AfterMethod
